@@ -26,7 +26,7 @@ class App extends Component {
     const filteredMonsters = monsters.filter(monster => monster.name.toLowerCase().includes(searchField.toLowerCase()))
     return (
       <div className="App">
-        <h1>Monsters</h1>
+        <h1>Monster</h1>
         {/* <input type = 'search' placeholder='search-monsters' onChange = {e => this.setState({searchField:e.target.value})}/>  */}
         <Search placeholder = 'search-monsters' handleChange = {this.handleChange}/> 
         {/* made above line as a search component in component folder and destructured placeholder and onclick because in dynamic case */}
