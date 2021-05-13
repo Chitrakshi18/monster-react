@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/monster-react/static/css/main.32b377be.chunk.css",
+    "main.js": "/monster-react/static/js/main.34f0b3ac.chunk.js",
+    "main.js.map": "/monster-react/static/js/main.34f0b3ac.chunk.js.map",
+    "runtime-main.js": "/monster-react/static/js/runtime-main.8d53d4d7.js",
+    "runtime-main.js.map": "/monster-react/static/js/runtime-main.8d53d4d7.js.map",
+    "static/js/2.10c4e671.chunk.js": "/monster-react/static/js/2.10c4e671.chunk.js",
+    "static/js/2.10c4e671.chunk.js.map": "/monster-react/static/js/2.10c4e671.chunk.js.map",
+    "index.html": "/monster-react/index.html",
+    "static/css/main.32b377be.chunk.css.map": "/monster-react/static/css/main.32b377be.chunk.css.map",
+    "static/js/2.10c4e671.chunk.js.LICENSE.txt": "/monster-react/static/js/2.10c4e671.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8d53d4d7.js",
+    "static/js/2.10c4e671.chunk.js",
+    "static/css/main.32b377be.chunk.css",
+    "static/js/main.34f0b3ac.chunk.js"
+  ]
+}
