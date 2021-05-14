@@ -13,9 +13,9 @@ export class counter extends Component {
     //     counter:this.state.counter+1
     // },
     // ()=> {console.log(this.state.count)})
-    this.setState((prevVal) => {
-      counter: prevVal = count + 1;
-    });
+    this.setState((prevVal) => ({
+      counter: prevVal.count + 1,
+    }));
   }
   incFive() {
     this.incrememt();

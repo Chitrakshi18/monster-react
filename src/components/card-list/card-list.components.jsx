@@ -1,11 +1,14 @@
 import React from "react";
 import "./card-list.styles.css";
-import { Card } from "../cards/card.components";
+import { MonsterCard } from "../cards/card.components";
+import CardGroup from "react-bootstrap/CardGroup";
 
 export const CardList = (props) => (
-  <div className="class-list">
-    {props.monsters.map((monster) => (
-      <Card key={monster.id} monster={monster} />
-    ))}
+  <div className="card-list">
+    <CardGroup>
+      {props.monsters.map((monster) => (
+        <MonsterCard key={monster.id} monster={monster} />
+      ))}
+    </CardGroup>
   </div>
 );

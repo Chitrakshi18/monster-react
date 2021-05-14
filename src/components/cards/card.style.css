@@ -9,9 +9,11 @@
     -moz-osx-font-smoothing: grayscale;
     backface-visibility: hidden;
     transform: translateZ(0);
+    margin: 25px;
     transition: transform 0.25s ease-out;
 }
 
 .card-container:hover {
+    box-shadow: black 4px 4px 4px 4px;
     transform: scale(1.05);
 }

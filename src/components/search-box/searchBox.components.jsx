@@ -1,12 +1,22 @@
 import React from "react";
 import "./search.css";
+import Form from "react-bootstrap/Form";
+
 export const Search = ({ placeholder, handleChange }) => (
-  <input
-    className="search"
-    type="search"
-    placeholder={placeholder}
-    onChange={handleChange}
-  />
+  // <input
+  //   className="search"
+  //   type="search"
+  //   placeholder={placeholder}
+  //   onChange={handleChange}
+  // />
+  <div className="search" style={{ width: "150px" }}>
+    <Form.Control
+      size="sm"
+      onChange={handleChange}
+      type="text"
+      placeholder="Search monsters"
+    />
+  </div>
 );
 
 // And then as far as place holder goes we might want this to be dynamic because maybe another place that
